@@ -1,0 +1,6 @@
+opencv-python>=4.8
+numpy>=1.24
+Pillow>=10.0
+tensorflow>=2.10
+keras>=2.10
+pyenchant>=3.2

@@ -5,12 +5,13 @@ from keras.models import model_from_json
 import operator
 import enchant
 from string import ascii_uppercase
+import os
 
 class Application:
 
     def __init__(self):
 
-        self.directory = 'model\\'
+        self.directory = os.path.join("model", "")
         self.hs = enchant.Dict("en_UK")
         self.vs = cv2.VideoCapture(0)
         self.current_image = None
